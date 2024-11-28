@@ -6,11 +6,16 @@ This project evaluates the performance of different machine learning algorithms 
 ### Key Objectives
 1. Examine the occurrence of overfitting with respect to leaf size.
 2. Investigate how bagging can reduce or eliminate overfitting.
-3. Compare the performance of DTLearner and RTLearner in terms of accuracy and training time.
+3. Compare the performance of DTLearner and RTLearner in terms of accuracy (using metrics like RMSE and MAE) and training time.
+4. Evaluate bagged versions of DTLearner or RTLearner.
 
 ## Files
-- **`assesslearners.py`**: Python script implementing the regression learners (DTLearner, RTLearner, and Bagged Learner) and conducting experiments on training and testing datasets.
-- **`assesslearners_report.pdf`**: Detailed report analyzing the learners' performance, including results, charts, and discussions on overfitting, bagging, and runtime efficiency.
+- `DTLearner.py`: Implements a regression tree learner that selects the best feature for splits.
+- `RTLearner.py`: Implements a regression tree learner with random feature splits.
+- `BagLearner.py`: Implements an ensemble learner using bagging.
+- `InsaneLearner.py`: Combines multiple Bagged Learners for experimentation.
+- `testlearner.py`: Conducts experiments on training/testing datasets and evaluates performance.
+- `assesslearners_report.pdf`: Detailed report analyzing learners' performance, including results, charts, and discussions on overfitting, bagging, and runtime efficiency.
 
 ## Project Writeup
 https://lucylabs.gatech.edu/ml4t/fall2022/project-3/
