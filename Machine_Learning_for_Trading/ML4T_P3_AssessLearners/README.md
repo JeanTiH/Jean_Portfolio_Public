@@ -16,6 +16,7 @@ This project evaluates the performance of different machine learning algorithms 
 - `InsaneLearner.py`: Combines multiple Bagged Learners for experimentation.
 - `testlearner.py`: Conducts experiments on training/testing datasets and evaluates performance.
 - `assesslearners_report.pdf`: Detailed report analyzing learners' performance, including results, charts, and discussions on overfitting, bagging, and runtime efficiency.
+- `Data/`: Contains input datasets for training and testing.
 
 ## Project Writeup
 https://lucylabs.gatech.edu/ml4t/fall2022/project-3/
