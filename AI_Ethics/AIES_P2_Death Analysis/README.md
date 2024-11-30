@@ -9,8 +9,9 @@ This project investigates patterns and potential biases in deaths that occur in 
 - Assessed the impact of random sampling on dataset distributions and protected class representation.
 
 ## Files
-- `deaths-in-custody.csv`: Dataset of deaths in custody in California.
+- `P2.py`: Code for the analysis and visualization of deaths in custody data.
 - `P2_report.pdf`: Analysis report documenting results and findings.
+- `deaths-in-custody.csv`: Dataset of deaths in custody in California.
 
 ## Project Writeup
 `Project2_Writeup.pdf`
