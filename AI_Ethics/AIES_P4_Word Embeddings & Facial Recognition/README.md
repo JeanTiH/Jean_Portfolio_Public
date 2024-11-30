@@ -12,7 +12,9 @@ This project applies AI and machine learning algorithms to two domains: word emb
 - `P4_task1.py`: Code for word embedding analysis, including similarity, analogy, and correlation tasks.
 - `P4_task2.py`: Code for facial recognition analysis, including demographic bias evaluation.
 - `P4_report.pdf`: Detailed report documenting results, visualizations, and insights.
-- `data/`: Contains datasets used for the analysis, including pre-trained word vectors and UTKFace images.
+- `data/`:
+  - Pre-trained word vectors for word embedding analysis.
+  - **Note**: The UTKFace dataset can be downloaded from the [official UTKFace repository](https://susanqq.github.io/UTKFace/).
 
 ## Project Writeup
 `Project4_Writeup.pdf`
