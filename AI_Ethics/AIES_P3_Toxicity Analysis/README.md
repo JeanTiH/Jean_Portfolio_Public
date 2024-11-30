@@ -9,8 +9,9 @@ This project analyzes relationships between protected class variables and toxici
 - Assessed how sampling methods affect representation and measurement in data subsets.
 
 ## Files
-- `toxity_per_attribute.csv`: Dataset of Wikipedia Talk Page comments and associated attributes.
+- `P3.py`: Code for statistical analysis and visualization of toxicity data.
 - `P3_report.pdf`:Analysis report with results, visualizations, and insights.
+- `toxity_per_attribute.csv`: Dataset of Wikipedia Talk Page comments and associated attributes.
 
 ## Project Writeup
 `Project3_Writeup.pdf`
