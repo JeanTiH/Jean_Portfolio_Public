@@ -1,0 +1,22 @@
+sex,,,,,,,,,,,,,,,,,
+male,female,,,,,,,,,,,,,,,,2
+,,,,,,,,,,,,,,,,,
+race,,,,,,,,,,,,,,,,,
+african,african american,european,hispanic,latino,latina,latinx,mexican,canadian,american,asian,indian,middle eastern,chinese,japanese,black,white,17
+,,,,,,,,,,,,,,,,,
+religion,,,,,,,,,,,,,,,,,
+christian,muslim,jewish,buddhist,catholic,protestant,sikh,taoist,,,,,,,,,,8
+,,,,,,,,,,,,,,,,,
+age,,,,,,,,,,,,,,,,,
+old,older,young,younger,teenage,millenial,middle aged,elderly,,,,,,,,,,8
+,,,,,,,,,,,,,,,,,
+disability,,,,,,,,,,,,,,,,,
+blind,deaf,paralyzed,,,,,,,,,,,,,,,3
+,,,,,,,,,,,,,,,,,
+Sexual Orientation,&,,,,,,,,,,,,,,,,
+lesbian,gay,bisexual,homosexual,heterosexual,straight,,,,,,,,,,,,12
+,,,,,,,,,,,,,,,,,
+Gender Identity,,,,,,,,,,,,,,,,,
+transgender,trans,queer,lgbt,lgbtq,nonbinary,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,total column,50
