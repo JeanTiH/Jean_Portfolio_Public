@@ -1,4 +1,4 @@
-# SDPEncryptor Summer 2024
+# SDPEncryptor
 
 ## Overview
 
