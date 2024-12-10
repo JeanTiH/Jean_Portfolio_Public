@@ -69,8 +69,6 @@ This project demonstrates how to create an Android app with a focus on:
 - Implementing encryption algorithms.
 - Building intuitive UIs with Android Studio.
 
-## References
+## Android Studio Source Code
 
-- [Affine Cipher](https://en.wikipedia.org/wiki/Affine_cipher)
-- [Android Studio Documentation](https://developer.android.com/studio)
-- [EditText Widget](https://developer.android.com/reference/android/widget/EditText)
+For additional details and source code, refer to the included folder `SDPEncryptor`.
