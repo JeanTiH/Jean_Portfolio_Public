@@ -74,4 +74,4 @@ Bagged RTLearner achieves smaller out-of-sample errors than DTLearner, demonstra
 - **`BagLearner.py`**: Implements an ensemble learner using bagging.
 - **`InsaneLearner.py`**: Combines multiple Bagged Learners for experimentation.
 - **`testlearner.py`**: Conducts experiments and evaluates learners' performance.
-- **`assesslearners_report.pdf`**: Detailed report analyzing learners' performance, including results, charts, and discussions on overfitting, bagging, and runtime efficiency.
+- For more details, refer to the **[assesslearners_report.pdf](assesslearners_report.pdf)**, a detailed report analyzing learners' performance, including results, charts, and discussions on overfitting, bagging, and runtime efficiency.
