@@ -102,7 +102,7 @@ This project demonstrates the importance of evaluating supervised learning algor
 
 ## Files
 
-- **`data/`**: Pre-processed datasets and accompanying instructions.
+- **`data/`**: Contains datasets, instructions for running the code (`README.txt`), and required Python libraries (`requirement.txt`).
 - **`ML_Algorithms.py`**: Codebase for implementing and tuning algorithms.
 - **`ML.py`**: Main script to orchestrate data processing and model evaluation.
 - For more details, refer to the **[P1_analysis.pdf](P1_analysis.pdf)**, a detailed report analyzing the performance of the five supervised learning algorithms on the datasets.
