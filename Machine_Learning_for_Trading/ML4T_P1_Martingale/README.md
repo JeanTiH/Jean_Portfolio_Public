@@ -55,4 +55,4 @@ Expected values provide a concise measure of outcomes but do not capture rare, e
 
 ## Files
 - **`martingale.py`**: Python script implementing the Martingale strategy simulation.
-- For more details, refer to the **[martingale_report.pdf](martingale_report.pdf)**, which is the detailed report including comprehensive methodology, results, and analysis.
+- For more details, refer to the **[martingale_report.pdf](martingale_report.pdf)**, a detailed report including comprehensive methodology, results, and analysis.
