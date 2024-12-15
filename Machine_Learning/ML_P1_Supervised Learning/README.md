@@ -8,14 +8,14 @@ This project explores the performance of **five supervised learning algorithms**
 
 ## Methods
 
-- **Datasets**:
+### Datasets
   1. **Data1 (Diabetes)**: Moderate size (1270 samples) with 8 features and a binary target.
   2. **Data2 (Sleepiness)**: Larger and noisier (3200 samples) with 10 features and a binary target.
      - Pre-processing included:
        - **Normalization** to ensure consistent feature scaling.
        - **Under-sampling** to address class imbalance.
 
-- **Algorithms**:
+### Algorithms
   1. Decision Trees (DT)
   2. Gradient Boosting (GB)
   3. k-Nearest Neighbors (kNN)
