@@ -43,8 +43,6 @@ This project explores the performance of **four randomized optimization algorith
 - GA consistently achieves the highest fitness score, with minimal variance.
 - MIMIC converges the fastest but has the lowest fitness score and highest computational cost.
 
-#### Visualizations:
-
 **1. Fitness Score vs. Problem Size**  
 GA performs best across problem sizes, while MIMIC struggles as complexity increases.  
 ![Fitness Score vs. Problem Size (TSP)](pic/Fig1.png)
@@ -60,8 +58,6 @@ GA reaches peak fitness after 1,400 iterations, while MIMIC converges within 500
 **Key Insights**:
 - MIMIC demonstrates rapid convergence and achieves the highest fitness score.
 - SA exhibits significant variability due to temperature fluctuations.
-
-#### Visualizations:
 
 **1. Fitness Score vs. Problem Size**  
 MIMIC and GA outperform RHC and SA, with consistent performance across sizes.  
@@ -79,8 +75,6 @@ MIMIC converges within 30 iterations, while GA stabilizes after 300 iterations.
 - SA achieves the highest fitness score with minimal function evaluations.
 - RHC underperforms compared to SA, GA, and MIMIC.
 
-#### Visualizations:
-
 **1. Fitness Score vs. Problem Size**  
 SA excels in larger problem sizes, while RHC consistently lags.  
 ![Fitness Score vs. Problem Size (Flipflop)](pic/Fig9.png)
@@ -96,8 +90,6 @@ GA and MIMIC converge rapidly, while SA achieves a higher fitness score over tim
 **Key Insights**:
 - RHC with multiple restarts achieves the highest accuracy (0.819), outperforming BP.
 - GA requires the fewest epochs for loss convergence but has the longest runtime.
-
-#### Visualizations:
 
 **1. Accuracy Comparison**  
 RHC demonstrates the best performance, followed by SA and GA.  
