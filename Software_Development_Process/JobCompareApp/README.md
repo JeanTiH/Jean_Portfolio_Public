@@ -97,6 +97,7 @@ For the complete timeline and team contributions, see the [Project Plan](doc/Pro
 ## Outcome
 
 **JobCompare** provides a seamless and effective solution for comparing job offers, catering to diverse user needs with customizable weights and a clear comparison system. The app leverages robust backend logic, intuitive UI design, and thorough testing to ensure a polished user experience.
+
 ![Compare With Current](doc/Images/interface6.png)
 ![Compare Two Jobs](doc/Images/interface12.png)
 
