@@ -39,8 +39,6 @@ This project explores **clustering** and **dimensionality reduction** techniques
 - **K-Means** outperformed EM, especially on **balanced datasets** like **Data2**.
 - **EM** handled **imbalanced data** better but introduced more clusters.
 
-#### Visualizations:
-
 **1. Silhouette Score for K-Means (Data2)**  
 K-Means achieves the best clustering results for Data2 with `k=2`.  
 ![Silhouette Score for K-Means (Data2)](pic/Fig6.png)  
@@ -56,8 +54,6 @@ K-Means produces two well-separated clusters, while EM’s soft clustering intro
 - **IMP** outperformed linear methods with **weak collinearity** in Data1.
 - **SRP** struggled with noisy data.
 
-#### Visualizations:
-
 **3. PCA: Cumulative Explained Variance (Data2)**  
 PCA reduces dimensions to 3 while retaining 100% variance in Data2.  
 ![PCA: Cumulative Explained Variance (Data2)](pic/Fig9.png)  
@@ -71,8 +67,6 @@ IMP achieves optimal performance with 3 components for Data2, effectively preser
 ### Neural Network Performance
 - Neural networks trained on **cluster-enhanced data** showed improved performance.
 - **Dimensionality reduction** simplified models but increased computational overhead.
-
-#### Visualizations:
 
 **5. NN Learning Curve with IMP (Data2)**  
 Adding samples reduces overfitting and improves generalization.  
