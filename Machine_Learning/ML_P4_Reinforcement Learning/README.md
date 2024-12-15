@@ -65,11 +65,11 @@ Q-Learning converges within 200 episodes after tuning (`LR=0.8`, `epsilon=0.7`, 
 - **Challenges**: Sparse rewards and large state space increase computational costs.  
 - **Q-Learning**: Faced difficulty balancing exploration and exploitation.
 
-**1. Value Iteration Policy Map (16x16)**  
+**3. Value Iteration Policy Map (16x16)**  
 Optimal policies require more iterations but converge with a high discount factor (`gamma = 0.9`).  
 ![Value Iteration Policy Map](pic/Fig25.png)
 
-**2. Q-Learning Parameter Sensitivity (16x16)**  
+**4. Q-Learning Parameter Sensitivity (16x16)**  
 Higher learning rates and exploration rates are critical for Q-Learning in large environments.  
 ![Q-Learning Parameter Sensitivity](pic/Fig28.png)
 
