@@ -98,4 +98,4 @@ This project evaluates the performance of a **Theoretically Optimal Strategy (TO
 - **`marketsimcode.py`**: Simulates trades and computes portfolio value for a given strategy.
 - **`TheoreticallyOptimalStrategy.py`**: Implements the TOS.
 - **`testproject.py`**: Tests the TOS and technical indicators on sample data.
-- **`indicatorsTOS_report.pdf`**: Detailed report analyzing the results of TOS and technical indicators.
+- For more details, refer to the **[indicatorsTOS_report.pdf](indicatorsTOS_report.pdf)**, a detailed report analyzing the results of TOS and technical indicators.
