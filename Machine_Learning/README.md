@@ -22,6 +22,7 @@ This directory contains 4 projects completed as part of the Machine Learning cou
   - Source code
   - Report
   - Data (if applicable)
+  - Pic (if applicable)
 
 ## Disclaimer
 The code snippets in this folder are part of the coursework at **Georgia Tech** and are for **demonstration purposes only**. 
