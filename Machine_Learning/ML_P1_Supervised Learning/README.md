@@ -22,7 +22,7 @@ This project explores the performance of **five supervised learning algorithms**
   4. Neural Networks (NN)
   5. Support Vector Machines (SVM)
 
-- **Experiment Setup**:
+### Experiment Setup
   - Data split into **80% training** and **20% testing**.
   - **5-fold cross-validation** applied for tuning hyperparameters.
   - Grid search used to identify optimal hyperparameters for each model.
