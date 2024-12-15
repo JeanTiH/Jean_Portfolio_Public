@@ -37,8 +37,6 @@ This project explores the performance of **five supervised learning algorithms**
 - **kNN**: Efficient but sensitive to irrelevant features, slightly affecting accuracy.
 - **Neural Networks**: Struggled due to the dataset size and architectural constraints.
 
-#### Visualizations:
-
 **1. Validation curve for SVM (RBF kernel)**  
 RBF kernel achieves the best performance with a regularization parameter (`C`) of 1.
 ![Validation Curve for SVM (Data1)](pic/Fig33.png)  
@@ -62,8 +60,6 @@ The loss steadily decreases over epochs, but underfitting is evident, as validat
 - **kNN**: Accuracy dropped to 0.72, exhibiting significant sensitivity to noise.
 - **SVM**: Performed well but showed bias towards false positives (Type I errors).
 - **Neural Networks**: Showed underfitting despite extensive hyperparameter tuning.
-
-#### Visualizations:
 
 **1. Validation curve for Gradient Boosting (`n_estimators`)**  
 Increasing the number of estimators improves performance, with optimal results achieved at 20 estimators.
