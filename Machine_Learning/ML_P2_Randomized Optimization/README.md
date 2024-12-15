@@ -8,26 +8,26 @@ This project explores the performance of **four randomized optimization algorith
 
 ## Methods
 
-- **Optimization Algorithms**:
+### Optimization Algorithms
   1. **Randomized Hill Climbing (RHC)**
   2. **Simulated Annealing (SA)**
   3. **Genetic Algorithm (GA)**
   4. **Mutual Information Maximizing Input Clustering (MIMIC)**
 
-- **Optimization Problems**:
+### Optimization Problems
   1. **Travelling Salesman Problem (TSP)**: An NP-hard problem for finding the shortest route among cities.
   2. **Knapsack Problem**: A resource allocation problem aiming to maximize value while adhering to weight constraints.
   3. **Flipflop Problem**: An artificial problem maximizing alternating 0s and 1s in a binary string.
   
-- **Neural Network Experiment**:
+### Neural Network Experiment
   - **Dataset**: Diabetes dataset (8 features, 1,270 samples, reused from Project 1).
   - **Algorithms Compared**: RHC, SA, GA, and Backpropagation (BP).
   - Performance metrics include **accuracy**, **runtime**, and **convergence**.
 
-- **Evaluation Metrics**:
+### Evaluation Metrics
   - Fitness scores, function evaluations, runtime, accuracy, and learning curves.
 
-- **Experiment Setup**:
+### Experiment Setup
   - Problems evaluated at small, medium, and large sample sizes.
   - Results averaged across five random seeds, with standard deviations reported.
 
