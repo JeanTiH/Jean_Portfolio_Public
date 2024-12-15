@@ -83,4 +83,4 @@ Impact values were varied to analyze their effect on LS performance. As the impa
 - **`experiment1.py`**: Runs and evaluates strategies for Experiment 1 with fixed transaction costs.
 - **`experiment2.py`**: Runs and evaluates strategies for Experiment 2 with varying impact values.
 - **`testproject.py`**: Validates the functionality of strategies and related modules.
-- **`strategyEval_report.pdf`**: Comprehensive report analyzing the performance of both strategies, including statistical results and discussions.
+- For more details, refer to the **[strategyEval_report.pdf](strategyEval_report.pdf)**, a comprehensive report analyzing the performance of both strategies, including statistical results and discussions.
