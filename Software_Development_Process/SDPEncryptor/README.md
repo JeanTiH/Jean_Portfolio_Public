@@ -71,4 +71,4 @@ This project demonstrates how to create an Android app with a focus on:
 
 ## Android Studio Source Code
 
-For additional details and source code, refer to the included folder `SDPEncryptor`.
+For additional details and source code, refer to the included folder `Encryptor`.
