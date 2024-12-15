@@ -2,55 +2,116 @@
 
 ## Overview
 
-This project explores clustering and dimensionality reduction algorithms to understand their performance and impact on data. The goal is to analyze how these algorithms behave under different conditions, how dimensionality reduction affects clustering, and how cluster-enhanced data performs in supervised learning tasks.
+This project explores **clustering** and **dimensionality reduction** techniques to understand their performance on datasets with varying collinearity and outliers. The effects of clustering and dimensionality reduction on **neural network performance** are also analyzed.
 
-### Key Objectives
+---
 
-1. Evaluate the performance of two clustering algorithms:
+## Methods
+
+### Datasets
+1. **Data1 (Diabetes)**: 
+   - 8 features, 1,932 samples.
+   - Weak collinearity and significant outliers.
+2. **Data2 (Rice)**:
+   - 7 features, 3,810 samples.
+   - Strong collinearity and balanced distribution.
+
+### Algorithms
+1. **Clustering**:
    - Expectation Maximization (EM)
    - K-Means
-2. Analyze the effects of four dimensionality reduction techniques:
+2. **Dimensionality Reduction**:
    - Principal Component Analysis (PCA)
    - Independent Component Analysis (ICA)
    - Sparse Random Projection (SRP)
    - Isomap (IMP)
-3. Reapply clustering on dimensionality-reduced data and compare results.
-4. Use dimensionality-reduced datasets and cluster-enhanced datasets to train and evaluate a neural network learner.
+3. **Neural Networks**:
+   - Trained on dimensionality-reduced data and cluster-enhanced data.
 
-## Highlights
+### Evaluation Metrics
+- Silhouette scores, reconstruction errors, F1 scores, accuracy, and neural network loss curves.
 
-- **Datasets**:
-  - Data1 (Diabetes): 8 features, 1,932 samples, weak collinearity, and significant outliers.
-  - Data2 (Rice): 7 features, 3,810 samples, strong collinearity, and balanced distribution.
-- **Clustering Insights**:
-  - K-Means generally outperforms EM, especially on balanced datasets.
-  - EM’s soft clustering handles imbalanced data better but introduces more clusters.
-- **Dimensionality Reduction Insights**:
-  - PCA and ICA excel with strongly collinear data (Data2).
-  - IMP performs better on datasets with non-linear structures (Data1).
-  - SRP struggles with datasets containing noise or weak collinearity.
-- **Neural Network Results**:
-  - Cluster-enhanced datasets improve neural network performance with reduced computational cost.
-  - Dimensionality-reduced data requires simpler models but may introduce computational overhead.
+---
 
-### Key Insights
+## Key Results
 
-- Dimensionality reduction can effectively improve clustering and supervised learning by reducing noise and highlighting important features.
-- K-Means is highly effective on balanced datasets with fewer outliers.
-- Combining clusters as features enhances data representation, leading to better supervised learning performance.
+### Clustering Performance
+- **K-Means** outperformed EM, especially on **balanced datasets** like **Data2**.
+- **EM** handled **imbalanced data** better but introduced more clusters.
 
-### Files
+#### Visualizations:
 
-- `code/`:
-  - `DR.py`: Implements dimensionality reduction techniques (PCA, ICA, SRP, Isomap).
-  - `NNDR.py`: Evaluates neural network performance on dimensionality-reduced data.
-  - `Cluster.py`: Implements clustering algorithms (EM, K-Means).
-  - `NNCluster.py`: Neural network experiments on cluster-enhanced datasets.
-  - `ClusterDR.py`: Combines clustering and dimensionality reduction experiments.
-  - `A3_run.py`: Main script for running and evaluating experiments.
-- `P3_analysis.pdf`: Detailed report analyzing results of clustering and dimensionality reduction.
-- `data/`: Contains datasets, instructions for running the code (`README.txt`), and required Python libraries (`requirement.txt`).
+**1. Silhouette Score for K-Means (Data2)**  
+K-Means achieves the best clustering results for Data2 with `k=2`.  
+![Silhouette Score for K-Means (Data2)](pic/Fig6.png)  
 
-## Project Writeup
+**2. Clustering Heatmap for EM and K-Means (Data2)**  
+K-Means produces two well-separated clusters, while EM’s soft clustering introduces more overlap.  
+![Heatmap for EM and K-Means (Data2)](pic/Fig8.png)  
 
-- `Project3_Writeup.pdf`
+---
+
+### Dimensionality Reduction Performance
+- **PCA** and **ICA** excel with Data2 due to its **strong collinearity**.
+- **IMP** outperformed linear methods with **weak collinearity** in Data1.
+- **SRP** struggled with noisy data.
+
+#### Visualizations:
+
+**3. PCA: Cumulative Explained Variance (Data2)**  
+PCA reduces dimensions to 3 while retaining 100% variance in Data2.  
+![PCA: Cumulative Explained Variance (Data2)](pic/Fig9.png)  
+
+**4. IMP Reconstruction Error (Data2)**  
+IMP achieves optimal performance with 3 components for Data2, effectively preserving non-linear structures while minimizing reconstruction error.  
+![IMP Reconstruction Error (Data2)](pic/Fig15.png)
+
+---
+
+### Neural Network Performance
+- Neural networks trained on **cluster-enhanced data** showed improved performance.
+- **Dimensionality reduction** simplified models but increased computational overhead.
+
+#### Visualizations:
+
+**5. NN Learning Curve with IMP (Data2)**  
+Adding samples reduces overfitting and improves generalization.  
+![NN Learning Curve with IMP (Data2)](pic/Fig23.png)  
+
+**6. NN Loss Curve for K-Means (Data2)**  
+K-Means-reduced data demonstrates steady convergence, with training loss stabilizing after 150 epochs.  
+![NN Loss Curve for K-Means (Data2)](pic/Fig28.png)
+
+---
+
+## Accuracy Comparison
+| **Method**            | **Data1 F1 Score** | **Data2 F1 Score** |
+|------------------------|-------------------|-------------------|
+| PCA                   | 0.67              | 0.92              |
+| ICA                   | 0.77              | 0.93              |
+| SRP                   | 0.60              | 0.92              |
+| IMP                   | 0.70              | 0.93              |
+
+---
+
+## Conclusion
+
+- **K-Means** consistently outperformed EM, particularly with balanced datasets.
+- **PCA** and **ICA** excelled with **strongly collinear** data (Data2), while **IMP** performed well with non-linear structures (Data1).
+- Dimensionality reduction improved neural network efficiency, with **cluster-enhanced datasets** achieving the highest performance.
+
+Fine-tuning the parameters and increasing dataset size further improved clustering and supervised learning performance.
+
+---
+
+## Files
+
+- **`data/`**: Contains datasets, instructions for running the code (`README.txt`), and required Python libraries (`requirement.txt`).
+- **`code/`**:
+   - `DR.py`: Implements dimensionality reduction techniques (PCA, ICA, SRP, Isomap).
+   - `Cluster.py`: Clustering algorithms (EM, K-Means).
+   - `NNDR.py`: Neural network evaluation on reduced data.
+   - `NNCluster.py`: Neural network evaluation on cluster-enhanced data.
+   - `ClusterDR.py`: Combines clustering and dimensionality reduction.
+   - `A3_run.py`: Main script for running experiments.
+- For more details, refer to the **[P3_analysis.pdf](P3_analysis.pdf)**, a detailed report analyzing the performance of the five supervised learning algorithms on the datasets.
