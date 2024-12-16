@@ -25,7 +25,7 @@ This directory contains 4 projects completed as part of the Machine Learning cou
   - Pic (if applicable)
 
 ## Disclaimer
-The content (code, report, analyses, writeup, etc.) in this folder are part of the coursework at Georgia Tech and are for **demonstration purposes only**. 
+The content (code, report, analyses, writeup, etc.) in this folder are part of the coursework at **Georgia Tech** and are for **demonstration purposes only**. 
 Any unauthorized use, reproduction, or distribution may result in a violation of copyright laws and will be subject to appropriate actions.
 
 _**By accessing this folder, you agree to adhere to all copyright policies.**_
