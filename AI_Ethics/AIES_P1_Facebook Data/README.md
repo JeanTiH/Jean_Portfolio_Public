@@ -35,14 +35,14 @@ This project examines how social media platforms like **Facebook** collect and u
 ---
 
 ### Summary Statistics Table
-| **Category**           | **Accuracy (%)** | **Rubbish (%)** |
-|-------------------------|------------------|---------------------|
-| Shopping               |  10.5            | 40.3             |
-| Media & Publication    |   3.6            | 20.7             |
-| Finance & Education    |   7.5            |  5.0             |
-| Influencers            |   2.1            | 81.9             |
-| Entertainment          |  15.7            |  0.0             |
-| Others                 |   3.1            | 16.5             |
+| **Category**            | **Accuracy (%)** | **Rubbish (%)**  |
+|-------------------------|------------------|------------------|
+| Shopping                |  10.5            | 40.3             |
+| Media & Publication     |   3.6            | 20.7             |
+| Finance & Education     |   7.5            |  5.0             |
+| Influencers             |   2.1            | 81.9             |
+| Entertainment           |  15.7            |  0.0             |
+| Others                  |   3.1            | 16.5             |
 
 ### Dataflow Diagram
 ![Dataflow Diagram](dataflow.png)
