@@ -12,7 +12,6 @@ This project involves implementing a **Q-Learning Agent** to solve reinforcement
 ## Files
 - `QLearner.py`: Implements the Q-Learning Agent, including Q-table updates and exploration/exploitation logic.
 - `testqlearner.py`: Tests the Q-Learner in a simulated environment, demonstrating its learning and performance.
-- `testworlds/`: Contains data for the Q-Learner to interact with the environment.
 
 ## Project Writeup
 https://lucylabs.gatech.edu/ml4t/fall2022/project-7/
