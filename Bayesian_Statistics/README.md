@@ -147,7 +147,7 @@ This project demonstrates the effectiveness of **robust techniques** (e.g., Stud
 ---
 
 ## Disclaimer
-The content (code, report, analyses, writeup, etc.) in this folder are part of the coursework at **Georgia Tech** and are for **demonstration purposes only**. 
+The content in this folder are part of the coursework at **Georgia Tech** and are for **demonstration purposes only**. 
 Any unauthorized use, reproduction, or distribution may result in a violation of copyright laws and will be subject to appropriate actions.
 
 _**By accessing this folder, you agree to adhere to all copyright policies.**_
