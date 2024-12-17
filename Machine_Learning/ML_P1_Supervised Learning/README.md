@@ -80,13 +80,13 @@ Lower regularization improves accuracy, but noise in the data prevents the model
 ---
 
 ## Accuracy Comparison
-| Algorithm          | Data1 (Diabetes) | Data2 (Sleepiness) |
-|--------------------|------------------|--------------------|
-| Decision Tree      | 0.94             | 0.75               |
-| Gradient Boosting  | 0.95             | 0.79               |
-| k-Nearest Neighbors| 0.98             | 0.72               |
-| Neural Networks    | 0.80             | 0.77               |
-| Support Vector Machine | 0.99         | 0.76               |
+| Algorithm              | Data1 (Diabetes) | Data2 (Sleepiness) |
+|------------------------|------------------|--------------------|
+| Decision Tree          | 0.96             | 0.73               |
+| Gradient Boosting      | 0.97             | 0.79               |
+| k-Nearest Neighbors    | 0.98             | 0.72               |
+| Neural Networks        | 0.80             | 0.77               |
+| Support Vector Machine | 0.99             | 0.73               |
 
 ---
 
@@ -98,7 +98,7 @@ This project demonstrates the importance of evaluating supervised learning algor
 
 ## Files
 
-- **`data/`**: Contains datasets, instructions for running the code (`README.txt`), and required Python libraries (`requirement.txt`).
+- **`ReadMe/`**: Contains instructions for running the code (`README.txt`), and required Python libraries (`requirement.txt`).
 - **`ML_Algorithms.py`**: Codebase for implementing and tuning algorithms.
 - **`ML.py`**: Main script to orchestrate data processing and model evaluation.
 - For more details, refer to the **[P1_analysis.pdf](P1_analysis.pdf)**, a detailed report analyzing the performance of the five supervised learning algorithms on the datasets.
