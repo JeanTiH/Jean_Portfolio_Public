@@ -17,17 +17,13 @@ This project analyzes relationships between protected class variables and toxici
 
 1. **Protected Classes and Subgroups**:
    - Subgroups were categorized into six protected classes: **Gender Identity**, **Sexual Orientation**, **Race**, **Religion**, **Age**, and **Disability**.
-   - Example subgroups:
-     - **Gender Identity**: Male, Female, Nonbinary, Transgender.
-     - **Disability**: Blind, Deaf, Paralyzed.
-     - **Race**: Black, White, Hispanic, Asian.
 
 2. **Toxicity Correlations**:
-   - **Highest Correlations**: **Sexual Orientation**, **Race**, and **Gender Identity** showed weak correlations with toxicity levels.
-   - **Lowest Correlations**: **Age** and **Disability** had very weak correlations with toxicity.
+   - **Highest Correlations**: **Sexual Orientation** showed weak correlations with toxicity levels.
+   - **Lowest Correlations**: **Disability** had very weak correlations with toxicity.
 
 3. **Bias in Subgroup Toxicity**:
-   - Subgroup **"Blind"** in **Disability** showed the highest toxicity values, potentially due to:
+   - Subgroup **"Blind"** showed the highest toxicity values in **Disability**, potentially due to:
      - Biased data labeling influenced by human perceptions.
      - Offensive usage of the term "blind" in derogatory contexts.
    - Subgroups **"Deaf"** and **"Paralyzed"** in **Disability** exhibited the lowest toxicity values, attributed to their neutral or descriptive usage.
@@ -41,14 +37,14 @@ This project analyzes relationships between protected class variables and toxici
 ## Visualizations
 
 ### Correlation Coefficients Table
-| **Protected Class**    | **Toxicity Correlation** | **Correlation Strength** |
+| **Protected Class**     | **Toxicity Correlation** | **Correlation Strength**  |
 |-------------------------|--------------------------|---------------------------|
-| Gender Identity         | 0.241                   | Weak                      |
-| Sexual Orientation      | 0.273                   | Weak                      |
-| Race                    | 0.252                   | Weak                      |
-| Religion                | 0.112                   | Very Weak                 |
-| Age                     | 0.084                   | Very Weak                 |
-| Disability              | 0.051                   | Very Weak                 |
+| Gender Identity         | 0.213                    | Weak                      |
+| Sexual Orientation      | 0.358                    | Weak                      |
+| Race                    | 0.222                    | Weak                      |
+| Religion                | 0.160                    | Very Weak                 |
+| Age                     | 0.163                    | Very Weak                 |
+| Disability              | 0.100                    | Very Weak                 |
 
 ### Toxicity by Protected Class Subgroups
 **1. Gender Identity**  
@@ -65,7 +61,7 @@ This project analyzes relationships between protected class variables and toxici
 ## Reflection
 
 - **Bias in Data**:
-  - Toxicity values reflect human bias in data labeling, particularly against subgroups like **"Blind"** in Disability.
+  - Toxicity values reflect human bias in data labeling, particularly against subgroups like **"Blind"** in **Disability**.
   - Offensive contexts amplify toxicity for specific terms, highlighting societal biases embedded in datasets.
 - **Ethical Implications**:
   - Bias in toxicity labeling has significant implications for AI fairness, leading to potential discrimination in automated systems.
@@ -75,5 +71,4 @@ This project analyzes relationships between protected class variables and toxici
 
 ## Files
 - **`P3.py`**: Code for statistical analysis and visualization of toxicity data.
-- **`toxicity_per_attribute.csv`**: Dataset of Wikipedia Talk Page comments and associated attributes.
 - For more details, refer to the **[P3_report.pdf](P3_report.pdf)**.
