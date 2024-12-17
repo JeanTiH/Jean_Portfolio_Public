@@ -80,11 +80,11 @@ K-Means-reduced data demonstrates steady convergence, with training loss stabili
 
 ## Accuracy Comparison
 | **Method**            | **Data1 F1 Score** | **Data2 F1 Score** |
-|------------------------|-------------------|-------------------|
-| PCA                   | 0.67              | 0.92              |
-| ICA                   | 0.77              | 0.93              |
-| SRP                   | 0.60              | 0.92              |
-| IMP                   | 0.70              | 0.93              |
+|-----------------------|--------------------|--------------------|
+| PCA                   | 0.67               | 0.92               |
+| ICA                   | 0.77               | 0.93               |
+| SRP                   | 0.60               | 0.92               |
+| IMP                   | 0.70               | 0.93               |
 
 ---
 
@@ -100,7 +100,7 @@ Fine-tuning the parameters and increasing dataset size further improved clusteri
 
 ## Files
 
-- **`data/`**: Contains datasets, instructions for running the code (`README.txt`), and required Python libraries (`requirement.txt`).
+- **`ReadMe/`**: Contains instructions for running the code (`README.txt`), and required Python libraries (`requirement.txt`).
 - **`code/`**:
    - `DR.py`: Implements dimensionality reduction techniques (PCA, ICA, SRP, Isomap).
    - `Cluster.py`: Clustering algorithms (EM, K-Means).
