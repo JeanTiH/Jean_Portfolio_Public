@@ -62,5 +62,4 @@ This project evaluates fairness and bias in credit decision-making using the **T
 
 ## Files
 - **`P5.py`**: Code for implementing bias analysis, fairness metrics, and bias mitigation strategies.
-- **`default of credit card clients.xls`**: Dataset used for credit decision analysis.
 - For more details, refer to the **[P5_report.pdf](P5_report.pdf)**.
