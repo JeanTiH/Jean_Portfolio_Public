@@ -85,6 +85,7 @@ Higher learning rates and exploration rates are critical for Q-Learning in large
 
 ## Files
 
+- **`ReadMe/`**: Contains instructions for running the code (`README.txt`), and required Python libraries (`requirement.txt`).
 - **code/**:
   - `blackjack-envP.py`: Custom implementation of the Blackjack environment.
   - `VIPI-blackjack.py`: Policy and Value Iteration for Blackjack.
@@ -93,6 +94,4 @@ Higher learning rates and exploration rates are critical for Q-Learning in large
   - `VIPI-frozenlake.py`: Policy and Value Iteration for Frozen Lake.
   - `QL-frozenlake.py`: Q-Learning for Frozen Lake.
   - `plots.py`: Generates plots for analysis.
-- **README.txt**: Instructions for running the code.  
-- **requirement.txt**: List of required Python libraries.
 - For more details, refer to the **[P4_analysis.pdf](P4_analysis.pdf)**, a detailed report analyzing the experiments
