@@ -122,12 +122,10 @@ Fine-tuning parameters and adding more samples significantly impact algorithm pe
 - **`NN/`**:
   - `NNCompare.py`: Implements neural network optimization experiments.
   - `NNcompare_run.py`: Main script for executing experiments.
-  - `Data_Diabetes.csv`: Dataset for neural network optimization.
 - **`3Problems/`**:
   - `ML_Knapsack.py`: Solves the Knapsack problem.
   - `ML_TSP.py`: Solves the TSP.
   - `ML_Flipflop.py`: Solves the Flipflop problem.
   - `Problems.py`: Shared utilities and problem definitions.
-- **`README.txt`**: Instructions for running the code.
-- **`requirement.txt`**: Required Python libraries.
+- **`ReadMe/`**: Contains instructions for running the code (`README.txt`), and required Python libraries (`requirement.txt`).
 - For more details, refer to the **[P2_analysis.pdf](P2_analysis.pdf)**, a detailed report analyzing the performance of the five supervised learning algorithms on the datasets.
