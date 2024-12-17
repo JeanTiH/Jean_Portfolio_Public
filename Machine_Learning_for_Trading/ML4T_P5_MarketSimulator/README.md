@@ -11,7 +11,6 @@ This project involves implementing a **Market Simulator** that simulates trading
 
 ## Files
 - `marketsim.py`: Core implementation of the market simulator, including handling trades, computing portfolio value, and calculating performance metrics.
-- `orders/`: A folder containing input data files representing trade orders for simulation.
 
 ## Project Writeup
 https://lucylabs.gatech.edu/ml4t/fall2022/project-5/
