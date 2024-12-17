@@ -4,6 +4,16 @@
 
 This project explores bias mitigation techniques in credit decision-making using the **Credit Card Approvals dataset**. The analysis evaluates fairness metrics such as **Disparate Impact (DI)** and **Statistical Parity Difference (SPD)** before and after applying bias mitigation techniques like **reweighing**. A **Random Forest classifier** is trained on both original and transformed datasets to assess the effectiveness of bias mitigation and its implications for fairness and financial decision-making.
 
+### My project Lead Role
+
+This is a **group project** developed by jhan446 and qfang36 for CS6603 Spring 2024. 
+
+As the **project lead**, I guided the team through planning, developing, and delivering the project. Responsibilities included: 
+1. Selecting the dataset.
+2. Designing the overall code structure.
+3. Completing the modules for data processing, transformation, visualization, and statistical calculations.
+4. Integrating individual contributions into a cohesive final product.
+5. Drafting and reviewing the project report.
 ---
 
 ## Learning Outcomes
@@ -16,7 +26,7 @@ This project explores bias mitigation techniques in credit decision-making using
 ## Key Findings
 
 1. **Protected Classes and Subgroups**:
-   - **Age**: Subgroups are **Under 25** (unprivileged) and **25 & Above** (privileged).
+   - **Age**: Subgroups are **Above 40** (privileged) and **40 & Under** (unprivileged).
    - **Familial Status**: Subgroups are **Married** (privileged) and **Single/Divorced/etc.** (unprivileged).
 
 2. **Fairness Metrics with Dependent Variable 2 Before Bias Mitigation**:
@@ -40,7 +50,6 @@ This project explores bias mitigation techniques in credit decision-making using
     - SPD for Age: Increased to -0.03 (within acceptable range).
     - SPD for Familial Status: Increased to -0.08 (within acceptable range).
 
-
 ---
 
 ## Reflection
@@ -57,5 +66,4 @@ This project explores bias mitigation techniques in credit decision-making using
 
 ## Files
 - **`Final_Project.ipynb`**: Jupyter notebook containing the code for bias mitigation, fairness metric computation, and Random Forest classification.
-- **`clean_dataset.csv`**: Dataset used for bias mitigation and fairness analysis.
 - For more details, refer to the **[Final_Project_Report.pdf](Final_Project_Report.pdf)**.
