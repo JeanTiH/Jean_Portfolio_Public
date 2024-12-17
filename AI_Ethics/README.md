@@ -23,14 +23,8 @@ This directory contains 6 projects completed as part of the AIES course. Each pr
 6. **Final Project: Bias Mitigation in Credit Decisions**
    - **Description**: Explores bias mitigation techniques in credit decision-making using the Credit Card Approvals dataset. Evaluates fairness metrics such as DI and SPD before and after bias mitigation. Trains a Random Forest classifier on original and transformed datasets to assess the effectiveness of bias mitigation.
 
-## Structure:
-- Each project folder contains:
-  - Source code (if applicable)
-  - Report 
-  - Data (if applicable)
-
 ## Disclaimer
-The content (code, report, analyses, writeup, etc.) in this folder are part of the coursework at **Georgia Tech** and are for **demonstration purposes only**. 
+The content in this folder are part of the coursework at **Georgia Tech** and are for **demonstration purposes only**. 
 Any unauthorized use, reproduction, or distribution may result in a violation of copyright laws and will be subject to appropriate actions.
 
 _**By accessing this folder, you agree to adhere to all copyright policies.**_
