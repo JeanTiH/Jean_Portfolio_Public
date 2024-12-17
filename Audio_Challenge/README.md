@@ -114,7 +114,7 @@ This study demonstrates the effectiveness of SVM and KNN for **audio classificat
 ---
 
 ## Disclaimer
-The content (code, report, analyses, etc.) in this folder are part of the project challenge at **Reality AI, Renesas** and are for **demonstration purposes only**. 
+The content in this folder are part of the project challenge at **Reality AI, Renesas** and are for **demonstration purposes only**. 
 Any unauthorized use, reproduction, or distribution may result in a violation of copyright laws and will be subject to appropriate actions.
 
 _**By accessing this folder, you agree to adhere to all copyright policies.**_
