@@ -1,12 +1,20 @@
 '''
 This code is for ACF project of QAI Inc. Fulton Maryland
+It automatically identifies the largest pallet number in the database and
+reads new pallet information (next N pallets) based on the current record.
+--------------------
 Author: JeanHan
 '''
 import sqlite3
 import pandas as pd
 
+'''
+Set N: how many new pallets info to add
+'''
+N = 100
+
 # Connect to SQLite database
-conn = sqlite3.connect('ACF_database(1-417).db')
+conn = sqlite3.connect('ACF_database.db')
 cursor = conn.cursor()
 
 # Find the current largest PalletNo in the database
@@ -16,10 +24,10 @@ largest_pallet_no = cursor.fetchone()
 largest_pallet_no = int(largest_pallet_no[0].replace('IM', '')) if largest_pallet_no else 0
 
 # Load the workbook with the new sheets
-excel_file = 'ACF (QAI to IM) Pallet Inventory.xlsx'  # Replace with your actual file name
+excel_file = 'ACF (QAI to IM) Pallet Inventory.xlsx'
 
 # Loop over new sheet numbers, starting from the next PalletNo, checking 100 new sheets
-for pallet_no in range(largest_pallet_no + 1, largest_pallet_no + 101):
+for pallet_no in range(largest_pallet_no + 1, largest_pallet_no + 1 + N):
     sheet_name = f'IM{str(pallet_no).zfill(3)}'
     try:
         # Only first 40 rows for each sheet
