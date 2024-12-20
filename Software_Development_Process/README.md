@@ -15,10 +15,6 @@ This directory contains 2 projects completed as part of the Software Development
 2. **SDPEncryptor: Text Encryption Tool**
    - **Description**: A simple Android app that implements the affine cipher for encrypting text. The app allows users to input text and customize encryption parameters, providing an interactive and educational encryption experience.
 
-## Structure:
-- Each project folder contains:
-  - **Source Code**: All Android Studio project files.
-
 ## Disclaimer
 The code snippets and analyses in this folder are part of the coursework at **Georgia Tech** and are for **demonstration purposes only**.  
 Any unauthorized use, reproduction, or distribution may result in a violation of copyright laws and will be subject to appropriate actions.
