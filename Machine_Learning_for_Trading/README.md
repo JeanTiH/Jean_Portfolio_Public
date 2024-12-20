@@ -29,13 +29,6 @@ This directory contains 7 projects completed as part of the Machine Learning for
      - **Learner Strategy (LS)**: Uses a Random Forest classifier trained on technical indicators to make trading decisions.
      Compares these strategies to a benchmark across in-sample and out-of-sample periods, analyzing the impact of transaction costs and market conditions.
 
-## Structure:
-- Each project folder contains:
-  - Source code
-  - Report (if applicable)
-  - Data (if applicable)
-  - Pic (if applicable)
-
 ## Disclaimer
 The content (code, report, analyses, writeup, etc.) in this folder are part of the coursework at **Georgia Tech** and are for **demonstration purposes only**. 
 Any unauthorized use, reproduction, or distribution may result in a violation of copyright laws and will be subject to appropriate actions.
