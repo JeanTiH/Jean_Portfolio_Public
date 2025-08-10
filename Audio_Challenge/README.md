@@ -22,7 +22,7 @@ Key performance metrics include **accuracy**, **precision**, **recall**, and **F
 ### Noise Reduction
 Three denoising techniques were compared using untuned linear SVM:
 | Denoising Method       | Accuracy |
-|------------------------|----------|
+|------------------------|:--------:|
 | Spectral Gating        | 0.79     |
 | Wavelet Transform      | 0.88     |
 | Bandpass Filtering     | 0.96     |
@@ -81,9 +81,9 @@ KNN performed well but struggled with **Car Horn** due to overlapping features w
 ## Wall Clock Time Comparison
 
 | Model | Testing Time (seconds) |
-|-------|-------------------------|
-| SVM   | 3.44                    |
-| KNN   | 1.17                    |
+|-------|:----------------------:|
+| SVM   | 3.44                   |
+| KNN   | 1.17                   |
 
 SVM had a higher computational cost due to its quadratic optimization process.
 
