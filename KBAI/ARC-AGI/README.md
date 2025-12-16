@@ -66,7 +66,7 @@ The agent demonstrates strong performance on:
 - Multi-stage transformations
 - Complex structural reasoning problems
 
-Detailed performance breakdowns are provided in the final report :contentReference[oaicite:1]{index=1}.
+Detailed performance breakdowns are provided in the final report ([ARC-AGI Final Journal.pdf](ARC-AGI%20Final%20Journal_Juejing%20Han.pdf)).
 
 ---
 
@@ -99,8 +99,6 @@ These failures illustrate a core limitation of rule-based systems: **generalizat
 - Incremental rule expansion rather than model replacement
 - Human-like reasoning for simple tasks, algorithmic precision for complex ones
 - Trades adaptability for transparency and speed
-
-A detailed comparison between agent reasoning and human reasoning is discussed in the final report :contentReference[oaicite:2]{index=2}.
 
 ---
 
